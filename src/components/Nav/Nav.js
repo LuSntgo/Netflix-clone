@@ -17,7 +17,7 @@ export default function Nav() {
   },[]);
 
   return (
-    <div className="navbar nav_black">
+    <div className={`navbar ${show && 'nav_black'} `}>
       <div className="nav_contents">
         <img
           className="nav_logo"
